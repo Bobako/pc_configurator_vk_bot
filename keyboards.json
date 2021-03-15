@@ -1,0 +1,148 @@
+{"greetings":{
+    "one_time": false,
+    "buttons": [
+      [{
+        "action": {
+          "type": "text",
+          "payload": {"button": "1"},
+          "label": "Конфигуратор"
+        },
+        "color": "primary"
+      },
+
+     {
+        "action": {
+          "type": "text",
+          "payload": {"button": "2"},
+          "label": "Сборки"
+        },
+        "color": "primary"
+      }],
+      [{
+        "action": {
+          "type": "text",
+          "payload": {"button": "1"},
+          "label": "Менеджер"
+        },
+        "color": "positive"
+      },
+
+     {
+        "action": {
+          "type": "text",
+          "payload": {"button": "2"},
+          "label": "Подобрать"
+        },
+        "color": "secondary"
+      }]
+
+    ]
+  },
+
+ "configurator":{
+    "one_time": false,
+    "buttons": [
+      [{
+        "action": {
+          "type": "text",
+          "payload": {"button": "1"},
+          "label": "Цены"
+        },
+        "color": "positive"
+      },
+     {
+        "action": {
+          "type": "text",
+          "payload": {"button": "2"},
+          "label": "Прогресс"
+        },
+        "color": "primary"
+      }],
+
+      [{
+        "action": {
+          "type": "text",
+          "payload": {"button": "1"},
+          "label": "Назад"
+        },
+        "color": "primary"
+      },
+
+      {
+        "action": {
+          "type": "text",
+          "payload": {"button": "2"},
+          "label": "Закончить"
+        },
+        "color": "negative"
+      }
+
+
+     ]
+
+    ]
+  },
+
+  "configs":{
+    "one_time": false,
+    "buttons": [
+      [{
+        "action": {
+          "type": "text",
+          "payload": {"button": "1"},
+          "label": "Назад"
+        },
+        "color": "primary"
+      },
+     {
+        "action": {
+          "type": "text",
+          "payload": {"button": "2"},
+          "label": "Закончить"
+        },
+        "color": "negative"
+      }]
+
+    ]
+  },
+
+  "confirm":{
+    "one_time": false,
+    "buttons": [
+      [{
+        "action": {
+          "type": "text",
+          "payload": {"button": "1"},
+          "label": "Да"
+        },
+        "color": "positive"
+      },
+     {
+        "action": {
+          "type": "text",
+          "payload": {"button": "2"},
+          "label": "Нет"
+        },
+        "color": "negative"
+      }],
+
+      [{
+        "action": {
+          "type": "text",
+          "payload": {"button": "1"},
+          "label": "Назад"
+        },
+        "color": "primary"
+      },
+     {
+        "action": {
+          "type": "text",
+          "payload": {"button": "2"},
+          "label": "Закончить"
+        },
+        "color": "negative"
+      }]
+
+    ]
+  }
+}
